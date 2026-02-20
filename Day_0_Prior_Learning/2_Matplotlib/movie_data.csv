@@ -1,0 +1,12 @@
+Movies_Data,,,,,,,,,
+show_id,type,title,director,cast,date_added,release_year,rating,listed_in,description
+s1,Movie,The Shawshank Redemption,Frank Darabont,"Tim Robbins, Morgan Freeman",2021-01-15,1994,R,Drama,"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+s2,Movie,The Godfather,Francis Ford Coppola,"Marlon Brando, Al Pacino",2020-08-20,1972,R,"Crime, Drama",The aging patriarch of an organized crime dynasty transfers control to his reluctant son.
+s3,TV Show,Breaking Bad,Vince Gilligan,"Bryan Cranston, Aaron Paul",2019-05-10,2008,TV-MA,"Crime, Drama, Thriller",A high school chemistry teacher turned methamphetamine manufacturer partners with a former student.
+s4,Movie,Inception,Christopher Nolan,"Leonardo DiCaprio, Joseph Gordon-Levitt",2021-03-25,2010,PG-13,"Action, Sci-Fi, Thriller",A thief who steals corporate secrets through dream-sharing technology is given the task of planting an idea.
+s5,Movie,Pulp Fiction,Quentin Tarantino,"John Travolta, Uma Thurman, Samuel L. Jackson",2020-11-05,1994,R,"Crime, Drama","The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence."
+s6,TV Show,Stranger Things,The Duffer Brothers,"Millie Bobby Brown, Finn Wolfhard",2022-07-01,2016,TV-14,"Drama, Fantasy, Horror","When a young boy disappears, his mother and friends must confront terrifying supernatural forces."
+s7,Movie,The Dark Knight,Christopher Nolan,"Christian Bale, Heath Ledger",2021-06-18,2008,PG-13,"Action, Crime, Drama",Batman raises the stakes in his war on crime with the help of Lt. Jim Gordon and Harvey Dent.
+s8,Movie,Forrest Gump,Robert Zemeckis,"Tom Hanks, Robin Wright",2020-04-12,1994,PG-13,"Drama, Romance",The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man with an IQ of 75.
+s9,TV Show,The Crown,Peter Morgan,"Claire Foy, Olivia Colman, Imelda Staunton",2022-11-09,2016,TV-MA,"Biography, Drama, History",Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.
+s10,Movie,Interstellar,Christopher Nolan,"Matthew McConaughey, Anne Hathaway",2021-09-30,2014,PG-13,"Adventure, Drama, Sci-Fi",A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
