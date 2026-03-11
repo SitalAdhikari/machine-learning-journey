@@ -1,0 +1,50 @@
+Day 20 – Missing Indicator with Imputation
+
+Today I learned about Missing Indicator, a technique used in machine learning to explicitly inform the model about which values were originally missing.
+
+Problem
+
+When we fill missing values using techniques like mean or median imputation, the model loses information about whether the value was originally missing or not.
+
+Sometimes, the fact that a value is missing itself can carry important predictive information.
+
+Missing Indicator
+
+The Missing Indicator creates a new binary feature that shows whether a value was missing.
+
+0 → Value was present
+
+1 (or True) → Value was missing
+
+
+This allows the model to capture patterns related to missingness.
+
+Workflow
+
+1. Split dataset into train and test sets.
+
+
+2. Apply SimpleImputer to fill missing values.
+
+
+3. Use MissingIndicator to detect where data was originally missing.
+
+
+4. Add a new feature such as Age_NA that marks missing values.
+
+
+5. Train the model using both the imputed feature and the indicator feature.
+
+
+
+Alternative Approach
+
+Scikit-learn also allows adding the indicator directly using:
+
+SimpleImputer(add_indicator=True)
+
+This automatically creates the missing indicator along with imputation.
+
+Key Insight
+
+Sometimes missing values themselves contain useful information, and adding a missing indicator feature can help machine learning models learn better patterns.
