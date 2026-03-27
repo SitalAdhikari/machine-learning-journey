@@ -1,0 +1,64 @@
+Day 29 – Linear Regression Theory
+
+Today I started learning Linear Regression, one of the most fundamental algorithms in Machine Learning.
+
+What is Linear Regression?
+
+Linear Regression is used to model the relationship between:
+
+Independent variable (X)
+
+Dependent variable (Y)
+
+
+It finds the best fit line:
+
+y = mx + b
+
+Where:
+
+m = slope
+
+b = intercept
+
+
+
+---
+
+Goal of Linear Regression
+
+Find the best line that minimizes the error between predicted and actual values.
+
+This is done using:
+
+Residuals (Errors)
+
+Least Squares Method
+
+
+
+---
+
+Key Concepts Learned
+
+Best Fit Line
+
+Residuals (Error)
+
+Cost Function
+
+Least Squares Method
+
+Simple vs Multiple Linear Regression
+
+
+
+---
+
+Why Linear Regression is Important
+
+Easy to understand
+
+Foundation for advanced ML algorithms
+
+Widely used in prediction problems
