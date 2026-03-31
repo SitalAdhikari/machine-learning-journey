@@ -1,0 +1,18 @@
+# Day 33 — Batch Gradient Descent
+
+Batch GD updates weights using **all rows** every iteration — stable but slow on large data.
+
+## Steps
+1. Init: `β₀ = 0`, `coef = 1`
+2. Predict: `ŷ = β₀ + X · coef`
+3. Compute MSE loss
+4. Update: `β -= lr * gradient`
+5. Repeat for N epochs
+
+## Gradients
+```
+∂L/∂β₀ = (-2/n) · Σ(y − ŷ)
+∂L/∂βₘ = (-2/n) · Σ(y − ŷ) · xₘ
+```
+
+> 💡 Batch = all rows | SGD = 1 row | Mini-Batch = k rows
