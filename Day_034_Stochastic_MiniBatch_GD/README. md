@@ -1,0 +1,27 @@
+Day 34 — Stochastic & Mini-Batch Gradient Descent
+
+📌 Overview
+
+On Day 34, I learned Stochastic Gradient Descent (SGD) and Mini-Batch Gradient Descent, two improved versions of Batch Gradient Descent used to train models more efficiently.
+
+🧠 Types of Gradient Descent
+
+1️⃣ Batch Gradient Descent
+
+Uses entire dataset
+
+Stable but slow for large datasets
+
+
+2️⃣ Stochastic Gradient Descent (SGD)
+
+Uses one data point at a time
+
+Faster but more noisy updates
+
+
+3️⃣ Mini-Batch Gradient Descent
+
+Uses small batch of data
+
+Balanced approach (fast + stable)
