@@ -1,0 +1,19 @@
+Day 37 — Ridge Regression
+
+ Overview
+
+On Day 37, I learned Ridge Regression, a Regularization technique used to reduce overfitting in Linear Regression.
+
+ What is Ridge Regression?
+
+Ridge Regression adds a penalty term to the cost function to control large coefficients.
+
+ Formula
+
+Loss = RSS + \lambda \sum w^2
+
+λ (Lambda) → Regularization parameter
+
+Penalizes large weights
+
+Helps reduce overfitting
