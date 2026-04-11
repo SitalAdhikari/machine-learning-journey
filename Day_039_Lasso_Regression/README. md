@@ -1,0 +1,25 @@
+Day 39 — Lasso Regression
+
+📌 Overview
+
+On Day 39, I learned Lasso Regression, a Regularization technique (L1) used to reduce overfitting and perform feature selection.
+
+🧠 What is Lasso Regression?
+
+Lasso Regression adds L1 penalty to the cost function, which can shrink some coefficients to zero.
+
+📈 Formula
+
+Loss = RSS + \lambda \sum |w|
+
+λ (Lambda) → Regularization parameter
+
+Shrinks coefficients
+
+Removes less important features
+
+
+💡 Key Takeaway
+
+Lasso Regression helps in reducing overfitting and automatic feature selection.
+
