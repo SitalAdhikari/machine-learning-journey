@@ -1,0 +1,7 @@
+## Day 45: Precision, Recall, and F1-Score 
+Today, I explored metrics that evaluate models when **Accuracy** becomes misleading, particularly in **imbalanced datasets**.
+### Key Metrics
+ * **Precision:** Focuses on the quality of positive predictions. Crucial when **False Positives** are costly (e.g., Spam detection).
+ * **Recall:** Focuses on capturing all actual positives. Essential when **False Negatives** are dangerous (e.g., Cancer detection).
+ * **F1-Score:** The **Harmonic Mean** of Precision and Recall, used when you need a balance between both.
+ * **Multi-Class Evaluation:** Explored **Macro** (arithmetic average) and **Weighted** (averaging based on class frequency) techniques for complex datasets.
