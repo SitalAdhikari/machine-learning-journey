@@ -1,0 +1,40 @@
+Day 46 — ROC Curve & AUC
+
+📌 Overview
+
+On Day 46, I learned ROC Curve and AUC, important metrics for evaluating classification models.
+
+🧠 What I Learned
+
+ROC Curve Concept
+
+True Positive Rate (TPR)
+
+False Positive Rate (FPR)
+
+AUC (Area Under Curve)
+
+
+📈 ROC Curve
+
+ROC Curve plots:
+
+TPR (Recall) vs FPR
+
+
+TPR = \frac{TP}{TP + FN}
+
+FPR = \frac{FP}{FP + TN}
+
+🎯 AUC (Area Under Curve)
+
+AUC = 1 → Perfect Model
+
+AUC = 0.5 → Random Model
+
+Higher AUC → Better Model
+
+
+💡 Key Takeaway
+
+ROC Curve helps evaluate classification performance across different thresholds.
