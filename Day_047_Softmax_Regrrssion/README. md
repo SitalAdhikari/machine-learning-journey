@@ -1,0 +1,31 @@
+Day 47 — Softmax Regression (Multiclass Classification)
+
+📌 Overview
+
+On Day 47, I learned Softmax Regression, an extension of Logistic Regression used for Multiclass Classification problems.
+
+🧠 What I Learned
+
+Multiclass Classification
+
+Softmax Function
+
+Probability Distribution across classes
+
+Class prediction using highest probability
+
+
+📈 Softmax Function
+
+P(y=i) = \frac{e^{z_i}}{\sum_{j=1}^{k} e^{z_j}}
+
+Converts outputs into probabilities
+
+Sum of probabilities = 1
+
+Used for multiple classes
+
+
+💡 Key Takeaway
+
+Softmax Regression helps classify data into more than two classes using probability distribution.
